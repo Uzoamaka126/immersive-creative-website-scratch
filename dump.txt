@@ -1,0 +1,6 @@
+# lookup the following
+    - babel
+    - babel loader
+    - different module bundlers
+    - css-loader, e.g postcss-loader, sass-loader
+    - file loader
