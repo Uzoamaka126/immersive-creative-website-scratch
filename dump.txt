@@ -1,6 +1,6 @@
 # lookup the following
     - babel
-    - babel loader
+    - webpack loaders, e.g babel loader, file loader, css-loader, e.g postcss-loader, sass-loader
     - different module bundlers
-    - css-loader, e.g postcss-loader, sass-loader
-    - file loader
+    - eslint config
+    - editor config
