@@ -1,0 +1,168 @@
+[
+    {
+        "id": "YHvyDxMAAKjQwwozw",
+        "uid": null,
+        "type": "about",
+        "href": "",
+        "slugs": ["product"],
+        "linked_documents": [],
+        "lang":  "en-US",
+        "alternate_languages": [],
+        "data": [
+            { 
+                "id": "YHcHuMAA",
+                "uuid": "silver-necklace",
+                "type": "product",
+                "href": "",
+                "tags": [],
+                "slugs": ["silver-necklace"],
+                "linked_documents": [],
+                "lang":  "en-US",
+                "alternate_languages": [],
+                "data": {
+                    "collection": {
+                        "id": "YHuLDxMAAKjQwq0y",
+                        "type": "collection",
+                        "tags": [],
+                        "slugs": "vita-collection",
+                        "data": {
+                            "title": "Vita collection"
+                        },
+                        "link_type": "Document",
+                        "isBroken": false
+                    }
+                },
+                "title": "Silver Necklace",
+                "image": {
+                    "dimensions": "",
+                    "alt": null,
+                    "copyright": "",
+                    "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275899/curology-ZIihTgf5uGg-unsplash_znkgkt.jpg"
+                },
+                "highlights": [
+                    {
+                        "highlights_icon": "",
+                        "highlights_text": "The necklace is 44cm long. The setting is 5mm long and 4mm wide."
+                    }
+                ],
+                "information": [
+                    {
+
+                    }
+                ],
+                "link_text": "Shop it",
+                "link_url": {
+                    "link_type": "Web",
+                    "url": "https://google.com"
+                }
+            },
+            { 
+                "id": "YHcssHuMAA",
+                "uuid": "gold-necklace",
+                "type": "product",
+                "href": "",
+                "tags": [],
+                "slugs": ["silver-necklace"],
+                "linked_documents": [],
+                "lang":  "en-US",
+                "alternate_languages": [],
+                "data": {
+                    "collection": {
+                    "id": "YHuLDxMAAKjQwq0y",
+                    "type": "collection",
+                    "tags": [],
+                    "slugs": "vita-collection",
+                    "data": {},
+                    "link_type": "Document",
+                    "isBroken": false
+                    }
+                },
+                "title": "Silver Necklace",
+                "image": {
+                    "dimensions": "",
+                    "alt": null,
+                    "copyright": "",
+                    "url": ""
+                },
+                "highlights": [
+                    {
+
+                    }
+                ],
+                "information": [
+                    {
+
+                    }
+                ],
+                "link_text": "Shop it",
+                "link_url": {
+                    "link_type": "Web",
+                    "url": "https://google.com"
+                }
+            },
+            { 
+                "id": "YHswqqqcHuMAA",
+                "uuid": "diamond-necklace",
+                "type": "product",
+                "href": "",
+                "tags": [],
+                "slugs": ["silver-necklace"],
+                "linked_documents": [],
+                "lang":  "en-US",
+                "alternate_languages": [],
+                "data": {
+                    "collection": {
+                    "id": "YHuLDxMAAKjQwq0y",
+                    "type": "collection",
+                    "tags": [],
+                    "slugs": "vita-collection",
+                    "data": {},
+                    "link_type": "Document",
+                    "isBroken": false
+                    }
+                },
+                "title": "Silver Necklace",
+                "image": {
+                    "dimensions": "",
+                    "alt": null,
+                    "copyright": "",
+                    "url": ""
+                },
+                "highlights": [
+                    {
+
+                    }
+                ],
+                "information": [
+                    {
+
+                    }
+                ],
+                "link_text": "Shop it",
+                "link_url": {
+                    "link_type": "Web",
+                    "url": "https://google.com"
+                }
+            }
+        ]
+    },
+    {
+        "id": "YHuLDxMAAKjQwq0y",
+        "uid": "meta",
+        "type": "meta",
+        "href": "",
+        "slugs": ["metadata"],
+        "linked_documents": [],
+        "lang":  "en-US",
+        "alternate_languages": [],
+        "data": {
+           "title": "Floema",
+           "description": "Jewelery",
+           "image": {
+                "alt": null,
+                "dimensions": { "width": 2048, "height": 1536 },
+                "url": ""
+           }
+        }
+    }
+]
