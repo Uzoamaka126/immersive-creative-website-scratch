@@ -1,0 +1,285 @@
+{
+    "page": 1,
+    "results_per_page": 20,
+    "results_size": 4,
+    "total_results_size": 4,
+    "total_pages": 1,
+    "next_page": null,
+    "prev_page": null,
+    "meta": {
+        "data": {
+            "title": "Collections"
+        }
+    },
+    "results": [
+        {
+            "id": "YHvyDxMAAKjQwwozw",
+            "uuid": "onde-collection",
+            "type": "collection",
+            "href": "",
+            "slugs": ["onde-collection", "vita-collection"],
+            "linked_documents": [],
+            "lang":  "en-US",
+            "alternate_languages": [],
+            "data": {
+                "title": "Onde collection",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+                "products": [
+                    {
+                        "id": "YHuLDxMAAKjQwq0y",
+                        "uuid": "silver-necklace",
+                        "type": "product",
+                        "tags": [],
+                        "slugs": "silver-necklace",
+                        "title": "Vita collection",
+                        "data": {
+                            "image": {
+                                "dimensions": "",
+                                "alt": null,
+                                "copyright": "",
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275899/curology-ZIihTgf5uGg-unsplash_znkgkt.jpg"
+                            }
+                        },
+                        "link_type": "Document",
+                        "isBroken": false
+                    },
+                    {
+                        "id": "YHuLDxMAAKjQwq0y",
+                        "type": "product",
+                        "tags": [],
+                        "slugs": "silver-necklace",
+                        "title": "Vita collection",
+                        "data": {
+                            "image": {
+                                "dimensions": "",
+                                "alt": null,
+                                "copyright": "",
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275899/curology-ZIihTgf5uGg-unsplash_znkgkt.jpg"
+                            }
+                        },
+                        "link_type": "Document",
+                        "isBroken": false
+                    },
+                    {
+                        "id": "YHuLDxMAAKjQwq0y",
+                        "type": "product",
+                        "tags": [],
+                        "slugs": "silver-necklace",
+                        "title": "Vita collection",
+                        "data": {
+                            "image": {
+                                "dimensions": "",
+                                "alt": null,
+                                "copyright": "",
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275899/curology-ZIihTgf5uGg-unsplash_znkgkt.jpg"
+                            }
+                        },
+                        "link_type": "Document",
+                        "isBroken": false
+                    }
+                ]
+            }
+        },
+        {
+            "id": "YHvyDxMAAKjQwwozw",
+            "uid": "treccia-collection",
+            "type": "collection",
+            "href": "",
+            "slugs": ["onde-collection", "treccia-collection"],
+            "linked_documents": [],
+            "lang":  "en-US",
+            "alternate_languages": [],
+            "data": {
+                "title": "Treccia collection",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+                "products": [
+                    {
+                        "id": "YHuLDxMAAKjQwq0y",
+                        "type": "product",
+                        "tags": [],
+                        "slugs": "silver-necklace",
+                        "title": "Vita collection",
+                        "data": {
+                            "image": {
+                                "dimensions": "",
+                                "alt": null,
+                                "copyright": "",
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275899/curology-ZIihTgf5uGg-unsplash_znkgkt.jpg"
+                            }
+                        },
+                        "link_type": "Document",
+                        "isBroken": false
+                    },
+                    {
+                        "id": "YHuLDxMAAKjQwq0y",
+                        "type": "product",
+                        "tags": [],
+                        "slugs": "silver-necklace",
+                        "title": "Vita collection",
+                        "data": {
+                            "image": {
+                                "dimensions": "",
+                                "alt": null,
+                                "copyright": "",
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275899/curology-ZIihTgf5uGg-unsplash_znkgkt.jpg"
+                            }
+                        },
+                        "link_type": "Document",
+                        "isBroken": false
+                    },
+                    {
+                        "id": "YHuLDxMAAKjQwq0y",
+                        "type": "product",
+                        "tags": [],
+                        "slugs": "silver-necklace",
+                        "title": "Vita collection",
+                        "data": {
+                            "image": {
+                                "dimensions": "",
+                                "alt": null,
+                                "copyright": "",
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275899/curology-ZIihTgf5uGg-unsplash_znkgkt.jpg"
+                            }
+                        },
+                        "link_type": "Document",
+                        "isBroken": false
+                    }
+                ]
+            }
+        },
+        {
+            "id": "YHaqwDxMAAKjQwwozw",
+            "uid": "aria-collection",
+            "type": "collection",
+            "href": "",
+            "slugs": ["aria-collection", "treccia-collection"],
+            "linked_documents": [],
+            "lang":  "en-US",
+            "alternate_languages": [],
+            "data": {
+                "title": "Aria collection",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+                "products": [
+                    {
+                        "id": "YHuLDxMAAKjQwq0y",
+                        "type": "product",
+                        "tags": [],
+                        "slugs": "silver-necklace",
+                        "title": "Vita collection",
+                        "data": {
+                            "image": {
+                                "dimensions": "",
+                                "alt": null,
+                                "copyright": "",
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275899/curology-ZIihTgf5uGg-unsplash_znkgkt.jpg"
+                            }
+                        },
+                        "link_type": "Document",
+                        "isBroken": false
+                    },
+                    {
+                        "id": "YHuLDxMAAKjQwq0y",
+                        "type": "product",
+                        "tags": [],
+                        "slugs": "silver-necklace",
+                        "title": "Vita collection",
+                        "data": {
+                            "image": {
+                                "dimensions": "",
+                                "alt": null,
+                                "copyright": "",
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275899/curology-ZIihTgf5uGg-unsplash_znkgkt.jpg"
+                            }
+                        },
+                        "link_type": "Document",
+                        "isBroken": false
+                    },
+                    {
+                        "id": "YHuLDxMAAKjQwq0y",
+                        "type": "product",
+                        "tags": [],
+                        "slugs": "silver-necklace",
+                        "title": "Vita collection",
+                        "data": {
+                            "image": {
+                                "dimensions": "",
+                                "alt": null,
+                                "copyright": "",
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275899/curology-ZIihTgf5uGg-unsplash_znkgkt.jpg"
+                            }
+                        },
+                        "link_type": "Document",
+                        "isBroken": false
+                    }
+                ]
+            }
+        },
+        {
+            "id": "YHwmkofDxMAAKjQwwozw",
+            "uid": "vita-collection",
+            "type": "collection",
+            "href": "",
+            "slugs": ["onde-collection", "vita-collection"],
+            "linked_documents": [],
+            "lang":  "en-US",
+            "alternate_languages": [],
+            "data": {
+                "title": "Vita collection",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+                "products": [
+                    {
+                        "id": "YHuLDxMAAKjQwq0y",
+                        "type": "product",
+                        "tags": [],
+                        "slugs": "silver-necklace",
+                        "title": "Vita collection",
+                        "data": {
+                            "image": {
+                                "dimensions": "",
+                                "alt": null,
+                                "copyright": "",
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275899/curology-ZIihTgf5uGg-unsplash_znkgkt.jpg"
+                            }
+                        },
+                        "link_type": "Document",
+                        "isBroken": false
+                    },
+                    {
+                        "id": "YHuLDxMAAKjQwq0y",
+                        "type": "product",
+                        "tags": [],
+                        "slugs": "silver-necklace",
+                        "title": "Vita collection",
+                        "data": {
+                            "image": {
+                                "dimensions": "",
+                                "alt": null,
+                                "copyright": "",
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275899/curology-ZIihTgf5uGg-unsplash_znkgkt.jpg"
+                            }
+                        },
+                        "link_type": "Document",
+                        "isBroken": false
+                    },
+                    {
+                        "id": "YHuLDxMAAKjQwq0y",
+                        "type": "product",
+                        "tags": [],
+                        "slugs": "silver-necklace",
+                        "title": "Vita collection",
+                        "data": {
+                            "image": {
+                                "dimensions": "",
+                                "alt": null,
+                                "copyright": "",
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275899/curology-ZIihTgf5uGg-unsplash_znkgkt.jpg"
+                            }
+                        },
+                        "link_type": "Document",
+                        "isBroken": false
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -2,7 +2,10 @@
     {
         "id": "YHvyDxMAAKjQwwozw",
         "uid": null,
-        "type": "about",
+        "type": "product",
+        "meta": {
+            "title": "Product Detail"
+        },
         "href": "",
         "slugs": ["product"],
         "linked_documents": [],

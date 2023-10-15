@@ -1,16 +1,67 @@
 const express = require('express');
+const errorhandler = require('errorhandler');
 const app = express();
 const port = 3000;
 const path = require('path');
 const aboutData = require('./shared/json/about.json');
 const productData = require('./shared/json/product.json');
-const find = require('lodash/find')
+const collectionsData = require('./shared/json/collections.json');
+const homeData = require('./shared/json/home.json');
+const preloader = require('./shared/json/preloader.json');
+const navigationData = require('./shared/json/navigation.json');
+
+function handleLinkResolver(doc) {
+    console.log({ doc });
+    if (doc === 'product') {
+        return `/detail/${doc.slug}`
+    }
+
+    if (doc === 'collections') {
+        return "/collections"
+    }
+
+    if (doc === 'about') {
+        return "/about"
+    }
+
+    return "/"
+}
+
+app.use(function (req, res, next) {
+    res.locals.Link = handleLinkResolver;
+
+    res.locals.Numbers = function(index) {
+        switch (index) {
+            case 0:
+                return "One"
+            case 1:
+                    return "Two"
+            case 2:
+                return "Three"
+            case 3:
+                return "Four"        
+            default:
+                return ""
+        }
+    }
+    next()
+})
 
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug')
+app.set('view engine', 'pug');
 
 app.get("/", function (req, res) {
-    res.render('pages/home');
+    const { meta, ...data } = homeData;
+    const { results } = collectionsData;
+    const navigation = navigationData;
+
+    res.render('pages/home', {
+        data,
+        preloader,
+        meta,
+        collections: results,
+        navigation
+    });
 })
 
 app.get("/about", function (req, res) {
@@ -19,30 +70,37 @@ app.get("/about", function (req, res) {
 
     res.render('pages/about', {
         about,
-        meta
+        meta,
+        preloader
     });
 })
 
 app.get("/collections", function (req, res) {
-    res.render('pages/collections');
+    const { results, meta } = collectionsData;
+
+    res.render('pages/collections', {
+        collections: results,
+        meta,
+        home: homeData,
+        preloader
+    });
 })
 
 app.get("/detail/:uuid", function (req, res) {
-    // console.log(req.params.uuid);
     const [data, meta] = productData;
 
     let product = {};
 
     data.data.forEach((item) => {
         if (item && item.uuid === req.params.uuid) {
-            // console.log({ item });
             product = {...item}
         }
     })
   
     res.render('pages/detail', {
         product,
-        meta
+        meta,
+        preloader
     });
 })
 
