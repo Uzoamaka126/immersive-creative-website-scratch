@@ -11,7 +11,6 @@ const preloader = require('./shared/json/preloader.json');
 const navigationData = require('./shared/json/navigation.json');
 
 function handleLinkResolver(doc) {
-    console.log({ doc });
     if (doc === 'product') {
         return `/detail/${doc.slug}`
     }
@@ -55,6 +54,8 @@ app.get("/", function (req, res) {
     const { results } = collectionsData;
     const navigation = navigationData;
 
+    console.log({ navigation });
+
     res.render('pages/home', {
         data,
         preloader,
@@ -67,27 +68,32 @@ app.get("/", function (req, res) {
 app.get("/about", function (req, res) {
     const results = aboutData;
     const [about, meta] = results;
+    const navigation = navigationData;
 
     res.render('pages/about', {
         about,
         meta,
-        preloader
+        preloader,
+        navigation
     });
 })
 
 app.get("/collections", function (req, res) {
     const { results, meta } = collectionsData;
+    const navigation = navigationData;
 
     res.render('pages/collections', {
         collections: results,
         meta,
         home: homeData,
-        preloader
+        preloader,
+        navigation
     });
 })
 
 app.get("/detail/:uuid", function (req, res) {
     const [data, meta] = productData;
+    const navigation = navigationData;
 
     let product = {};
 
@@ -100,7 +106,8 @@ app.get("/detail/:uuid", function (req, res) {
     res.render('pages/detail', {
         product,
         meta,
-        preloader
+        preloader,
+        navigation
     });
 })
 
