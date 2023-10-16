@@ -3,6 +3,9 @@
 @import './utils/mixins';
 @import './utils/vendors';
 
+@import './shared/description.scss';
+@import './shared/titles.scss';
+
 @import './base/fonts';
 @import './base/reset';
 @import './base/base';
