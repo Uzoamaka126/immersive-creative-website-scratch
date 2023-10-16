@@ -45,19 +45,19 @@ module.exports = {
             filename: '[name].css',
             chunkFilename: '[id].css'
         }),
-        new ImageMinimizerPlugin({
-            minimizer: {
-                // Lossless optimization with custom option
-                // Feel free to experiment with options for better result
-                options: {
-                    plugins: [
-                        ['gifsicle', { interlaced: true }],
-                        ['jpegtran', { progressive: true }],
-                        ['optipng', { optimizationLevel: 5 }]
-                    ]
-                }
-            }
-        })
+        // new ImageMinimizerPlugin({
+        //     minimizer: {
+        //         // Lossless optimization with custom option
+        //         // Feel free to experiment with options for better result
+        //         options: {
+        //             plugins: [
+        //                 ['gifsicle', { interlaced: true }],
+        //                 ['jpegtran', { progressive: true }],
+        //                 ['optipng', { optimizationLevel: 5 }]
+        //             ]
+        //         }
+        //     }
+        // })
     ],
     module: {
         rules: [
@@ -97,14 +97,14 @@ module.exports = {
                     }
                 }
             },
-            {
-                test: /\.(jpe?g|png|gif|svg|webp)$/i,
-                use: [
-                  {
-                    loader: ImageMinimizerPlugin.loader,
-                  },
-                ],
-            },
+            // {
+            //     test: /\.(jpe?g|png|gif|svg|webp)$/i,
+            //     use: [
+            //       {
+            //         loader: ImageMinimizerPlugin.loader,
+            //       },
+            //     ],
+            // },
             {
                 test: /\.glsl|frag|vert$/,
                 loader: 'raw-loader',

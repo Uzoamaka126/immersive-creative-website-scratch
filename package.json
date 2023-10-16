@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --progress --config webpack.config.build.js",
-    "development": "webpack-dev-server --progress --config webpack.config.development.js",
-    "start": "npm run development"
+    "be:build": "node app.js",
+    "be:dev": "nodemon app.js",
+    "fe:build": "webpack --progress --config webpack.config.build.js",
+    "fe:dev": "webpack-dev-server --progress --config webpack.config.development.js",
+    "start": "concurrently --kill-others \"npm run be:dev\" \"npm run fe:dev\""
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.8.1",
+    "errorhandler": "^1.5.1",
     "eslint": "^8.51.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-loader": "^4.0.2",
@@ -32,13 +35,20 @@
     "file-loader": "^6.2.0",
     "image-minimizer-webpack-plugin": "^3.8.3",
     "imagemin-optipng": "^8.0.0",
+    "lodash": "^4.17.21",
     "mini-css-extract-plugin": "^2.7.6",
     "postcss-loader": "^7.3.3",
+    "pug": "^3.0.2",
     "sass": "^1.69.3",
     "sass-loader": "^13.3.2",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1",
     "webpack-merge": "^5.9.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.23.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
   }
 }
