@@ -15,7 +15,6 @@ module.exports = merge(config, {
     devMiddleware: {
       writeToDisk: true,
     },
-    // writeToDisk: true
   },
 
   output: {
