@@ -1,17 +1,52 @@
-const { merge } = require('webpack-merge');
-const path = require('path');
+const { merge } = require('webpack-merge')
+const path = require('path')
 
 const config = require('./webpack.config');
 
-module.exports = merge(config, {
-    mode: 'development',
+const extraRules = [
+  {
+    test: /\.css$/,
+    use: ['css-loader']
+  },
+  {
+    test: /\.scss$/,
+    use: [ 
+      {
+          loader: "css-loader" // translates CSS into CommonJS
+      }, 
+      {
+        loader: "sass-loader", // compiles Sass to CSS
+      }
+    ]
+  }
+];
 
-    devtool: 'inline-source-map',
-     
-    // devServer: {
-    //     writeToDisk: true // write to disk
-    // },
-    output: {
-        path: path.resolve(__dirname, 'public')
-    }
+module.exports = merge(config, {
+  mode: 'development',
+
+  // module: {
+  //   rules: [
+  //     {
+  //       test: /\.css$/,
+  //       use: ['css-loader']
+  //     },
+  //     {
+  //       test: /\.scss$/,
+  //       use: [ 
+  //         {
+  //             loader: "css-loader" // translates CSS into CommonJS
+  //         }, 
+  //         {
+  //           loader: "sass-loader", // compiles Sass to CSS
+  //         }
+  //       ]
+  //     }
+  //   ]
+  // },
+
+  devtool: 'inline-source-map',
+
+  output: {
+    path: path.resolve(__dirname, 'public')
+  },
 })

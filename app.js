@@ -1,8 +1,13 @@
+require('dotenv').config();
+
+const logger = require('morgan')
 const express = require('express');
 const errorhandler = require('errorhandler');
 const app = express();
 const port = 3000;
 const path = require('path');
+const methodOverride = require('method-override')
+
 const aboutData = require('./shared/json/about.json');
 const productData = require('./shared/json/product.json');
 const collectionsData = require('./shared/json/collections.json');
@@ -46,6 +51,9 @@ app.use(function (req, res, next) {
     next()
 })
 
+app.use(logger('dev'));
+app.use(methodOverride());
+app.use(errorhandler());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.set('views', path.join(__dirname, 'views'));

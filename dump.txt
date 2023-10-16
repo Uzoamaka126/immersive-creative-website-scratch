@@ -4,3 +4,10 @@
     - different module bundlers
     - eslint config
     - editor config
+
+     new webpack.LoaderOptionsPlugin({
+[1]          // test: /\.xxx$/, // may apply this only for some modules
+[1]          options: {
+[1]            sassLoader: ...
+[1]          }
+[1]        })
