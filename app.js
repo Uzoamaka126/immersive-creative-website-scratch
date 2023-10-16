@@ -6,6 +6,8 @@ const errorhandler = require('errorhandler');
 const app = express();
 const port = 3000;
 const path = require('path');
+const UAParser = require('ua-parser-js')
+
 const methodOverride = require('method-override')
 
 const aboutData = require('./shared/json/about.json');
@@ -31,7 +33,13 @@ function handleLinkResolver(doc) {
     return "/"
 }
 
+app.use(logger('dev'));
+app.use(methodOverride());
+app.use(errorhandler());
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.use(function (req, res, next) {
+    const ua = UAParser(req.headers['user-agent'])
     res.locals.Link = handleLinkResolver;
 
     res.locals.Numbers = function(index) {
@@ -48,13 +56,9 @@ app.use(function (req, res, next) {
                 return ""
         }
     }
+
     next()
 })
-
-app.use(logger('dev'));
-app.use(methodOverride());
-app.use(errorhandler());
-app.use(express.static(path.join(__dirname, 'public')));
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');

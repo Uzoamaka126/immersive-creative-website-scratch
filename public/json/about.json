@@ -1,0 +1,179 @@
+[
+    {
+        "id": "YHvyDxMAAKjQwwozw",
+        "uid": null,
+        "type": "about",
+        "href": "",
+        "slugs": ["about"],
+        "linked_documents": [],
+        "lang":  "en-US",
+        "alternate_languages": [],
+        "data": {
+            "gallery": [
+                {
+                    "image": {
+                        "alt": null,
+                        "dimensions": { "width": 2048, "height": 1536 },
+                        "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275669/anis-m-WnVrO-DvxcE-unsplash_vokdv0.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "alt": null,
+                        "dimensions": { "width": 2048, "height": 1536 },
+                        "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275664/curology-VItxz6u036U-unsplash_a0yl3y.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "alt": "",
+                        "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275662/curology-SjqgfcH207A-unsplash_yhkhez.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "alt": "",
+                        "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275897/curology-X1sIr53DhzA-unsplash_nrodti.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "alt": "",
+                        "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275778/deanna-alys-6LBBOwkPzyQ-unsplash_wa4th4.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "alt": "",
+                        "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275773/sincerely-media-GteR27txmaM-unsplash_pi91zw.jpg"
+                    }
+                }
+            ],
+            "body": [
+                { 
+                    "slice_type": "title",
+                    "slice_label": null,
+                    "items": [],
+                    "primary": {
+                        "text": "Creating new dialogues \nbetween threads and metal"
+                    }
+                },
+                { 
+                    "slice_type": "content",
+                    "slice_label": null,
+                    "items": [],
+                    "primary": {
+                        "text": "Creating new dialogues \nbetween threads and metal",
+                        "label": "About  us",
+                        "description": [],
+                        "image": {},
+                        "type": "Left"
+                    }
+                },
+                { 
+                    "slice_type": "highlight",
+                    "slice_label": null,
+                    "items": [],
+                    "primary": {
+                        "title": "Floema",
+                        "label": null
+                    }
+                },
+                { 
+                    "slice_type": "content",
+                    "slice_label": null,
+                    "items": [],
+                    "primary": {
+                        "title": "Floema",
+                        "label": "The Brand",
+                        "description": [],
+                        "image": {
+                            "alt": null,
+                            "dimensions": { "width": 2048, "height": 1536 },
+                            "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275897/curology-X1sIr53DhzA-unsplash_nrodti.jpg"    
+                        },
+                        "type": "Left"
+                    }
+                },
+                { 
+                    "slice_type": "gallery",
+                    "slice_label": null,
+                    "items": [],
+                    "primary": {}
+                },
+                { 
+                    "slice_type": "title",
+                    "slice_label": null,
+                    "items": [],
+                    "primary": {
+                        "text": "The suprise of which is possible\n to make a simple \n and thin thread."
+                    }
+                },
+                { 
+                    "slice_type": "content",
+                    "slice_label": null,
+                    "items": [],
+                    "primary": {
+                        "type": "Left",
+                        "label": "Sustainability",
+                        "image": {
+                            "alt": null,
+                            "url": ""
+                        },
+                        "description": []
+                    }
+                },
+                { 
+                    "slice_type": "content",
+                    "slice_label": null,
+                    "items": [],
+                    "primary": {
+                        "label": "About us",
+                        "type": "Left",
+                        "description": []
+                    }
+                },
+                { 
+                    "slice_type": "content",
+                    "slice_label": null,
+                    "items": [],
+                    "primary": {
+                        "label": "Jewellery Care",
+                        "type": "Right",
+                        "description": []
+                    }
+                },
+                { 
+                    "slice_type": "highlight",
+                    "slice_label": null,
+                    "items": [],
+                    "primary": {
+                        "label": "Follow me on Instagram",
+                        "title": "Instagram"
+                    }
+                }
+            ],
+            "footer_copyright": "",
+            "footer_credits": ""
+        }
+    },
+    {
+        "id": "YHuLDxMAAKjQwq0y",
+        "uid": "meta",
+        "type": "meta",
+        "href": "",
+        "slugs": ["metadata"],
+        "linked_documents": [],
+        "lang":  "en-US",
+        "alternate_languages": [],
+        "data": {
+           "title": "About Skin & Clear",
+           "description": "Skincare",
+           "image": {
+                "alt": null,
+                "dimensions": { "width": 2048, "height": 1536 },
+                "url": ""
+           }
+        }
+    }
+]
