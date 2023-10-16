@@ -13,7 +13,7 @@
     },
     "alternate_languages": [],
     "data": {
-        "collection": "Collection",
+        "collection": "collections",
         "button": "Discover Collections"
     },
     "title": "Home",

@@ -15,6 +15,6 @@ block content
         .home__gallery
             each media, index in data.gallery
                 figure.home__gallery__media
-                    img.home__gallery__media__image(alt=media.image.alt data-src=media.image.url)
+                    img.home__gallery__media__image(alt=media.image.alt src=media.image.url)
 
-        a.home__link(href=Link(collections))=data.button
+        a.home__link(href=Link(data.data.collection))=data.data.button

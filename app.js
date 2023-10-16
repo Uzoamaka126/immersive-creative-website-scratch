@@ -54,8 +54,6 @@ app.get("/", function (req, res) {
     const { results } = collectionsData;
     const navigation = navigationData;
 
-    console.log({ navigation });
-
     res.render('pages/home', {
         data,
         preloader,
