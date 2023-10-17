@@ -2,6 +2,7 @@
 @import './utils/functions';
 @import './utils/mixins';
 @import './utils/vendors';
+@import './utils/responsive.scss';
 
 @import './shared/description.scss';
 @import './shared/titles.scss';
@@ -9,6 +10,8 @@
 @import './base/fonts';
 @import './base/reset';
 @import './base/base';
+
+@import './components/preloader.scss';
 
 @import './pages/about/about';
 @import './pages/about/content';
