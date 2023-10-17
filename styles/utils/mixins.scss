@@ -7,6 +7,17 @@
     width: 100%;
 }
 
+%center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%alignCenter {
+    align-items: center;
+    display: flex;
+}
+
 @mixin ratio ($height, $width) {
     font-size: 0;
     overflow: hidden;

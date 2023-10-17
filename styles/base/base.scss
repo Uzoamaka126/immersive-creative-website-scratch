@@ -1,5 +1,5 @@
 html {
-    font-size: calc(100vw / 1440 * 10)
+    font-size: calc(100vw / 1440 * 10);
 }
 
 body {
@@ -8,6 +8,6 @@ body {
     font-family: $font-suisse-bp;
     
     @include media('<=phone') {
-        font-size: 100px;
+        // font-size: 100px;
     }
 }
