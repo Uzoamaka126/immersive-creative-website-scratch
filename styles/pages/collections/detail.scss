@@ -63,6 +63,10 @@
     margin-right: 3.75rem;
 }
 
+.detail__information__highlight__text {
+    @extend %desc-16;
+}
+
 .detail__information__list {
     margin-top: 4rem;
 }
