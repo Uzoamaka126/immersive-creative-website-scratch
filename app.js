@@ -18,15 +18,18 @@ const preloader = require('./shared/json/preloader.json');
 const navigationData = require('./shared/json/navigation.json');
 
 function handleLinkResolver(doc) {
-    if (doc === 'product') {
-        return `/detail/${doc.slug}`
+    const lowercaseDoc = typeof doc === 'string' && doc.toLowerCase();
+
+    console.log({ lowercaseDoc });
+    if (lowercaseDoc === 'product') {
+        return `/detail/${lowercaseDoc.slug}`
     }
 
-    if (doc === 'collections') {
+    if (lowercaseDoc === 'collection' || lowercaseDoc === 'collections') {
         return "/collections"
     }
 
-    if (doc === 'about') {
+    if (lowercaseDoc === 'about') {
         return "/about"
     }
 
