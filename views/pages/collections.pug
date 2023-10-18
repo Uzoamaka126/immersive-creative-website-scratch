@@ -16,13 +16,13 @@ block content
             .collections__gallery__wrapper 
                 each collection in collections 
                     each product in collection.data.products 
-                        a.collections.gallery__link(href=Link(product.data))
-                            figure.collections__gallery 
+                        a.collections__gallery__link(href=Link(product.data))
+                            figure.collections__gallery__media 
                                 img.collections__gallery__media__image(alt=product.data.image.alt src=product.data.image.url)
 
         .collections__content
             each collection, index in collections
                 article.collections__article(class=`${index === 0 ? 'collections__article--active' : ''}`)
-                h2.collections__article__title=collection.data.title
+                    h2.collections__article__title=collection.data.title
 
-                p.collections__article__description!=collection.data.description.replace(/\n/g, '<br>')
+                    p.collections__article__description!=collection.data.description.replace(/\n/g, '<br>')

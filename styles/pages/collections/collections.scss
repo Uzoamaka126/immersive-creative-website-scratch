@@ -1,12 +1,12 @@
 .collections  {
     @extend %cover;
-    border: 2px solid red;
     background: $color-burly;
     color: $color-quartze
 }
 .collections__wrapper  {
     @extend %cover;
-    border: 2px solid;
+
+    overflow: hidden;
 }
 .collections__titles {
     display: flex;
@@ -19,7 +19,9 @@
 .collections__titles__label {
     @extend %desc-12;
 
-    transform: rotate(-90deg);
+    letter-spacing: 0.1rem;
+    margin: 0 3rem;
+    transform: rotate(90deg);
     text-transform: uppercase;
     text-align: center;
 }
@@ -27,36 +29,62 @@
 .collections__titles__title {
     @extend %title-200;
 
+    padding-top: 2rem;
 }
 
 .collections__gallery  {
-    
+    @extend %cover;
 }
+
 .collections__gallery__wrapper  {
-    
+    @extend %alignCenter;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
-.collections.gallery__link {
-    
+
+.collections__gallery__link {
+    display: block;
+    margin: 0 5rem;
 }
-.collections__gallery  {
-    
+
+.collections__gallery__media  {
+    height: 59.1rem;
+    position: relative;
+    width: 44.7rem;
 }
+
 .collections__gallery__media__image {
-    width: 300px;
-    height: 400px;
+    @extend %cover;
+
+    max-height: 500px;
     object-fit: cover;
 }
 
 .collections__content {
-    
+    @extend %cover;
+
 }
 .collections__article {
-    
+    position: absolute;
+    left: 7rem;
+    bottom: 7rem;
+    opacity: 0;
+
+    &--active {
+        opacity: 1;
+    }
 }
+
 .collections__article__title {
-    
+    @extend %title-60;
+
+    margin-bottom: 1.5rem
 }
 
 .collections__article__description {
-    
+    @extend %desc-16;
+
+    max-width: 44rem;
 }
