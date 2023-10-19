@@ -18,14 +18,15 @@ block content
                 if section.slice_type === 'content'
                     section.about__content(class=`${section.primary.type === 'Left' ? 'about__content--left' : 'about__content--right'}`)
                         .about__content__wrapper 
-                            p.about__content__label=section.primary.label 
+                            .about__content__box
+                                p.about__content__label=section.primary.label 
 
-                            if section.primary.description.length
-                                each desc in section.primary.description
-                                    .about__content__description=desc
+                                if section.primary.description.length
+                                    each desc in section.primary.description
+                                        .about__content__description=desc
 
-                            if section.primary.image
-                                figure.about__content__media 
+                                if section.primary.image
+                                    figure.about__content__media 
                                     img.about__content__media__image(alt=section.primary.image.alt src=section.primary.image.url)
 
                 if section.slice_type === "highlight"

@@ -1,5 +1,11 @@
 .home {
-    
+    @extend %center;
+    @extend %cover;
+
+    background: $color-contessa;
+    color: $color-quartze;
+    display: none;
+    text-align: center;
 }
 .home__wrapper {
     
@@ -14,14 +20,18 @@
     
 }
 .home__gallery {
-    
+    @extend %cover;
 }
 .home__gallery__media {
-    
+    position: absolute;
+    visibility: hidden;
 }
 .home__gallery__media__image {
     
 }
 .home__link {
-    
+    position: absolute;
+    transform: translateX(-50%);
+    align-items: center;
+    display: flex;
 }

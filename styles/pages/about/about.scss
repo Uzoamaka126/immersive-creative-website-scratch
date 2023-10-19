@@ -1,66 +1,20 @@
 
 .about  {
-    
+    background: $color-blue;
+    color: $color-gray;
 }
 .about__wrapper {
     
 }
-.about__gallery__wrapper  {
-    
-}
-.about__gallery__media  {
-    
-}
-.about__gallery__media__image {
-    
-}
-            
-.about__content  {
-    
-}
-.about__content__wrapper  {
-    
-}
-.about__content__label                                     {
-    
-}
-.about__content__description {
-    
+.about__title {
+    @extend %title-100;
+
+    margin: auto;
+    max-width: 124rem;
+    text-align: center;
+
+    @include media('<phone') {
+        max-width: 67.7rem;
+    }
 }
 
-.about__content__media  {
-    
-}
-.about__content__media__image {
-    
-}
-
-.about__highlight  {
-    
-}
-.about__highlight__wrapper  {
-    
-}
-.about__highlight__label {
-    
-}
-
-.about__highlight__title {
-    
-}
-.about__highlight__media  {
-    
-}
-.about__highlight__media__image {
-    
-}
-
-.about__gallery__wrapper  {
-    
-}
-.about__gallery__media  {
-    
-}
-.about__gallery__media__image {
-    
-}
