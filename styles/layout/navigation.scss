@@ -28,21 +28,21 @@
     display: block;
 }
 
-.navigation__list {
+// .navigation__list {
+//     pointer-events: auto;
+//     position: absolute;
+//     right: 4rem;
+//     top: 4rem;
+//     display: flex;
+//     align-items: center;
+// }
+
+.navigation__list__item {
+    // uncomment this and delete the .navigation__list styles later
     pointer-events: auto;
     position: absolute;
     right: 4rem;
     top: 4rem;
-    display: flex;
-    align-items: center;
-}
-
-.navigation__list__item {
-    // uncomment this and delete the .navigation__list styles later
-    // pointer-events: auto;
-    // position: absolute;
-    // right: 4rem;
-    // top: 4rem;
     
     &:not(:last-child) {
         margin-right: 2.5rem;

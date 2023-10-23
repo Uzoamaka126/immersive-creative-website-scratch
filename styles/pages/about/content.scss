@@ -1,5 +1,6 @@
 .about__content__box {
     display: flex;
+    // width: 29%;
 
     @include media('<=phone') {
         width: 60.9rem;
@@ -37,6 +38,10 @@
         margin-bottom: 0;
     }
 
+    &:nth-child(3) {
+        margin-top: 30rem;
+    }    
+
     &:nth-child(5) {
         justify-content: flex-end;
     }
@@ -58,6 +63,7 @@
 
 .about__content__wrapper  {
     display: flex;
+    width: 100%;
 
     .about__content--right & {
         flex-direction: row-reverse;
@@ -110,9 +116,11 @@
 
 .about__content__media  {
     position: relative;
+    // width: 32% !important;
 
     .about__content:nth-child(3) & {
         height: 80.8rem;
+        height: 60rem;
         margin-left: 18rem;
         width: 53.8rem;
     }
@@ -125,12 +133,14 @@
 
     .about__content:nth-child(8) & {
         height: 52rem;
+        height: 60rem;
         margin-right: 12rem;
         width: 84.2rem;
     }
 
     .about__content:nth-child(9) & {
         height: 85.8rem;
+        height: 60rem;
         margin-left: 22rem;
         width: 60.8rem;
     }
