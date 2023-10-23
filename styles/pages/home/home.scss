@@ -4,28 +4,46 @@
 
     background: $color-contessa;
     color: $color-quartze;
-    display: none;
     text-align: center;
+    overflow: hidden;
 }
 
 .home__wrapper {
-    
+    // @extend %cover;
+
+    &:before,
+    &:after {
+        content: '';
+        height: 35rem;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
 }
 
 .home__titles {
-    
+    @extend %vertical-titles;
 }
 
 .home__titles__label {
-    
+    @extend %vertical-titles__label;
 }
 
 .home__titles__title {
-    
+    @extend %vertical-titles__title;
 }
 
 .home__gallery {
     @extend %cover;
+
+    display: flex;
+    flex-wrap: wrap;
+    left: 50%;
+    padding: 0 2.5rem;
+    transform: translateX(-50%);
+    visibility: hidden;
+  
 }
 
 .home__gallery__media {
