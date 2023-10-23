@@ -91,6 +91,13 @@
                                 "dimensions": { "width": 2048, "height": 1536 },
                                 "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275897/curology-X1sIr53DhzA-unsplash_nrodti.jpg"    
                             }
+                        },
+                        {
+                            "image": {
+                                "alt": "",
+                                "dimensions": { "width": 2048, "height": 1536 },
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275897/curology-X1sIr53DhzA-unsplash_nrodti.jpg"    
+                            }
                         }
                     ],
                     "primary": {
@@ -216,10 +223,17 @@
                                 "dimensions": { "width": 2048, "height": 1536 },
                                 "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275897/curology-X1sIr53DhzA-unsplash_nrodti.jpg"    
                             }
+                        },
+                        {
+                            "image": {
+                                "alt": "",
+                                "dimensions": { "width": 2048, "height": 1536 },
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275897/curology-X1sIr53DhzA-unsplash_nrodti.jpg"    
+                            }
                         }
                     ],
                     "primary": {
-                        "label": "Follow me on Instagram",
+                        "label": "Follow me on",
                         "title": "Instagram"
                     }
                 }

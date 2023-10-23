@@ -2,6 +2,7 @@
     height: 58.6rem;
     position: relative;
     margin: 20rem 0;
+    overflow: hidden;
 
     &:first-child {
         margin-top: 0;
@@ -20,11 +21,11 @@
     transform: translateY(-50%);
 }
 
-.about__gallery__media  {
-    position: relative;
+.about__gallery__media {
     height: 43.7rem;
-    width: 30.9rem;
     margin: 0 4rem;
+    position: relative;
+    width: 30.9rem;
 }
 
 .about__gallery__media__image {

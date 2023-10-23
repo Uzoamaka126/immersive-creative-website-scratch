@@ -12,7 +12,9 @@
 @import './base/fonts';
 @import './base/base';
 
-@import './components/preloader.scss';
+@import './components/preloader';
+
+@import './layout/navigation.scss';
 
 @import './pages/about/about';
 @import './pages/about/content';

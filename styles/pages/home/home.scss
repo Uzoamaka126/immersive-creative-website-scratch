@@ -7,28 +7,36 @@
     display: none;
     text-align: center;
 }
+
 .home__wrapper {
     
 }
+
 .home__titles {
     
 }
+
 .home__titles__label {
     
 }
+
 .home__titles__title {
     
 }
+
 .home__gallery {
     @extend %cover;
 }
+
 .home__gallery__media {
     position: absolute;
     visibility: hidden;
 }
+
 .home__gallery__media__image {
     
 }
+
 .home__link {
     position: absolute;
     transform: translateX(-50%);
