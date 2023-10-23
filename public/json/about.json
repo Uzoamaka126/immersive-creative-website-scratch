@@ -63,17 +63,36 @@
                     "slice_label": null,
                     "items": [],
                     "primary": {
-                        "text": "Creating new dialogues \nbetween threads and metal",
-                        "label": "About  us",
-                        "description": [],
-                        "image": {},
+                        "label": "Jewellery Care",
+                        "description": [
+                            "All FLOEMA jewels are exclusively realized using precious metals: 925 silver (pure for the Filigree) and 18kt gold. All melals are subjecied to a natural oxidation process that depends either on natural factors like oxygen in the air the salt in the sea sunlight skin ph or on chemical factors like creams and perfumes.",                            
+                            "Please find two ways to clean gold and silver with neutral ingredients.",
+                            "To make your piece return to its original condition:",
+                            "Gold is slightly subjected to the oxidation process. To make vour iewel shine at ain put vour iewels in a solution or half cup of white vinegar and salt for at least 30 minutes",
+                            "With a white cotton soft cloth dipped in the solution first brush your piece and then rinse it with plenty of water and voila!",
+                            "To take the oxidation off silver you have to use one ingredient only: bicarbonate",
+                            "Pour 250ml bicarbonate in a container. Mixed until it is melted. Leave your silver iewels in the solution over the night. Then brush them with a toothbrush until they shine again. Finally, rinse and dry with soft cloth."
+                        ],
+                        "image": {
+                            "alt": null,
+                            "dimensions": { "width": 2048, "height": 1536 },
+                            "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275897/curology-X1sIr53DhzA-unsplash_nrodti.jpg"    
+                        },
                         "type": "Left"
                     }
                 },
                 { 
                     "slice_type": "highlight",
                     "slice_label": null,
-                    "items": [],
+                    "items": [
+                        {
+                            "image": {
+                                "alt": "",
+                                "dimensions": { "width": 2048, "height": 1536 },
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275897/curology-X1sIr53DhzA-unsplash_nrodti.jpg"    
+                            }
+                        }
+                    ],
                     "primary": {
                         "title": "Floema",
                         "label": null
@@ -84,14 +103,22 @@
                     "slice_label": null,
                     "items": [],
                     "primary": {
-                        "title": "Floema",
                         "label": "The Brand",
-                        "description": [],
                         "image": {
                             "alt": null,
                             "dimensions": { "width": 2048, "height": 1536 },
                             "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275897/curology-X1sIr53DhzA-unsplash_nrodti.jpg"    
                         },
+                        "description": [
+                            "All FLOEMA jewels are exclusively realized using precious metals: 925 silver (pure for the Filigree) and 18kt gold. All melals are subjecied to a natural oxidation process that depends either on natural factors like oxygen in the air the salt in the sea sunlight skin ph or on chemical factors like creams and perfumes.",                            
+                            "Please find two ways to clean gold and silver with neutral ingredients.",
+                            "To make your piece return to its original condition:",
+                            "Gold is slightly subjected to the oxidation process. To make vour iewel shine at ain put vour iewels in a solution or half cup of white vinegar and salt for at least 30 minutes",
+                            "With a white cotton soft cloth dipped in the solution first brush your piece and then rinse it with plenty of water and voila!",
+                            "To take the oxidation off silver you have to use one ingredient only: bicarbonate",
+                            "Pour 250ml bicarbonate in a container. Mixed until it is melted. Leave your silver iewels in the solution over the night. Then brush them with a toothbrush until they shine again. Finally, rinse and dry with soft cloth."
+                        ],
+
                         "type": "Left"
                     }
                 },
@@ -114,13 +141,21 @@
                     "slice_label": null,
                     "items": [],
                     "primary": {
-                        "type": "Left",
+                        "type": "Right",
                         "label": "Sustainability",
                         "image": {
                             "alt": null,
-                            "url": ""
+                            "dimensions": { "width": 2048, "height": 1536 },
+                            "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275897/curology-X1sIr53DhzA-unsplash_nrodti.jpg"    
                         },
-                        "description": []
+                        "description": [
+                            "All FLOEMA jewels are exclusively realized using precious metals: 925 silver (pure for the Filigree) and 18kt gold. All melals are subjecied to a natural oxidation process that depends either on natural factors like oxygen in the air the salt in the sea sunlight skin ph or on chemical factors like creams and perfumes.",                            
+                            "Please find two ways to clean gold and silver with neutral ingredients.",
+                            "You will receive each piece in a handmade box realized by Florentine typography using eco-friendly paper (made by 90% of pure cellulose and 10% by cotton fibers),",
+                            "in a recycled and 100% recyclable parcel.",
+                            "The business cards are realized with recycled cotton fiber cardboard.",
+                            "All the pieces are created in a small laboratory in the Florentine countryside, preferring using green materials and recycling precious materials."
+                        ]
                     }
                 },
                 { 
@@ -130,7 +165,21 @@
                     "primary": {
                         "label": "About us",
                         "type": "Left",
-                        "description": []
+                        "text": "Creating new dialogues \nbetween threads and metal",
+                        "description": [
+                            "All FLOEMA jewels are exclusively realized using precious metals: 925 silver (pure for the Filigree) and 18kt gold. All melals are subjecied to a natural oxidation process that depends either on natural factors like oxygen in the air the salt in the sea sunlight skin ph or on chemical factors like creams and perfumes.",                            
+                            "Please find two ways to clean gold and silver with neutral ingredients.",
+                            "To make your piece return to its original condition:",
+                            "Gold is slightly subjected to the oxidation process. To make vour iewel shine at ain put vour iewels in a solution or half cup of white vinegar and salt for at least 30 minutes",
+                            "With a white cotton soft cloth dipped in the solution first brush your piece and then rinse it with plenty of water and voila!",
+                            "To take the oxidation off silver you have to use one ingredient only: bicarbonate",
+                            "Pour 250ml bicarbonate in a container. Mixed until it is melted. Leave your silver iewels in the solution over the night. Then brush them with a toothbrush until they shine again. Finally, rinse and dry with soft cloth."
+                        ],
+                        "image": {
+                            "alt": null,
+                            "dimensions": { "width": 2048, "height": 1536 },
+                            "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275897/curology-X1sIr53DhzA-unsplash_nrodti.jpg"    
+                        }
                     }
                 },
                 { 
@@ -140,13 +189,35 @@
                     "primary": {
                         "label": "Jewellery Care",
                         "type": "Right",
-                        "description": []
+                        "text": "Creating new dialogues \nbetween threads and metal",
+                        "description": [
+                            "All FLOEMA jewels are exclusively realized using precious metals: 925 silver (pure for the Filigree) and 18kt gold. All melals are subjecied to a natural oxidation process that depends either on natural factors like oxygen in the air the salt in the sea sunlight skin ph or on chemical factors like creams and perfumes.",                            
+                            "Please find two ways to clean gold and silver with neutral ingredients.",
+                            "To make your piece return to its original condition:",
+                            "Gold is slightly subjected to the oxidation process. To make vour iewel shine at ain put vour iewels in a solution or half cup of white vinegar and salt for at least 30 minutes",
+                            "With a white cotton soft cloth dipped in the solution first brush your piece and then rinse it with plenty of water and voila!",
+                            "To take the oxidation off silver you have to use one ingredient only: bicarbonate",
+                            "Pour 250ml bicarbonate in a container. Mixed until it is melted. Leave your silver iewels in the solution over the night. Then brush them with a toothbrush until they shine again. Finally, rinse and dry with soft cloth."
+                        ],
+                        "image": {
+                            "alt": null,
+                            "dimensions": { "width": 2048, "height": 1536 },
+                            "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275897/curology-X1sIr53DhzA-unsplash_nrodti.jpg"    
+                        }
                     }
                 },
                 { 
                     "slice_type": "highlight",
                     "slice_label": null,
-                    "items": [],
+                    "items": [
+                        {
+                            "image": {
+                                "alt": "",
+                                "dimensions": { "width": 2048, "height": 1536 },
+                                "url": "https://res.cloudinary.com/gracy126/image/upload/v1697275897/curology-X1sIr53DhzA-unsplash_nrodti.jpg"    
+                            }
+                        }
+                    ],
                     "primary": {
                         "label": "Follow me on Instagram",
                         "title": "Instagram"

@@ -111,29 +111,29 @@
 .about__content__media  {
     position: relative;
 
-    .about__content_:nth-child(3) & {
+    .about__content:nth-child(3) & {
         height: 80.8rem;
         margin-left: 18rem;
         width: 53.8rem;
-    } 
+    }
     
-    .about__content_:nth-child(5) & {
+    .about__content:nth-child(5) & {
         height: 60rem;
         margin-left: 18rem;
         width: 96rem;
-    } 
+    }
 
-    .about__content_:nth-child(8) & {
+    .about__content:nth-child(8) & {
         height: 52rem;
         margin-right: 12rem;
         width: 84.2rem;
-    } 
+    }
 
-    .about__content_:nth-child(9) & {
+    .about__content:nth-child(9) & {
         height: 85.8rem;
         margin-left: 22rem;
         width: 60.8rem;
-    } 
+    }
 
     @include media('<=phone') {
         .about__content_:nth-child(3) & {

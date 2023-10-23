@@ -36,6 +36,12 @@ function handleLinkResolver(doc) {
     return "/"
 }
 
+function handleJoinText(texts) {
+    if (texts && Array.isArray(texts) && texts.length) {
+        return texts.join(" ")
+    }
+}
+
 app.use(logger('dev'));
 app.use(methodOverride());
 app.use(errorhandler());
@@ -59,6 +65,8 @@ app.use(function (req, res, next) {
                 return ""
         }
     }
+
+    res.locals.TextJoin = handleJoinText;
 
     next()
 })
